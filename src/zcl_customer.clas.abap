@@ -26,7 +26,7 @@ CLASS zcl_customer IMPLEMENTATION.
       DATA(lt_fields)  = io_request->get_requested_elements( ).
       DATA(lt_sort)    = io_request->get_sort_elements( ).
 
-      zlt_customer = VALUE #( ( CustomerId = '100' Description = 'Star BV' ) ).
+      zlt_customer = VALUE #( ( CustomerId = '100' Description = 'Star BV' ) ( CustomerId = '200' Description = 'Puk NV' ) ).
 
     io_response->set_total_number_of_records( lines( zlt_customer ) ).
     io_response->set_data( zlt_customer ).

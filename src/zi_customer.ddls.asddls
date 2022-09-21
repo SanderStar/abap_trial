@@ -6,5 +6,5 @@
 }
 define root custom entity ZI_CUSTOMER {
      key CustomerId     : abap.char( 10 );
-     Description        : abap.char( 2 );
+     Description        : abap.char( 200 );
 }
