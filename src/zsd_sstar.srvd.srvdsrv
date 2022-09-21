@@ -1,4 +1,5 @@
 @EndUserText.label: 'Service definition sstar'
 define service ZSD_SSTAR {
   expose ZC_PRODUCT_SSTAR as Product;
+  expose ZI_CUSTOMER as Customer;
 }
