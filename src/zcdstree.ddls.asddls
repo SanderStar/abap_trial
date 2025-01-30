@@ -3,7 +3,7 @@
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Functional Location Source View'
 define view zcdstree as select from ztree
-association [1..1] to zcdstree as _tree  
+association [0..1] to zcdstree as _tree  
     on $projection.parent = _tree.id
 {
     key id,

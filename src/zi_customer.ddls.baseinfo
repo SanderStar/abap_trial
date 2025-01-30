@@ -2,7 +2,9 @@
 "BASEINFO":
 {
 "FROM":
-[],
+[
+"ZISMO_KNA1"
+],
 "ASSOCIATED":
 [],
 "BASE":

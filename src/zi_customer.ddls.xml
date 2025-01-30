@@ -5,8 +5,8 @@
    <DDLS>
     <DDLNAME>ZI_CUSTOMER</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>Customer</DDTEXT>
-    <SOURCE_TYPE>Q</SOURCE_TYPE>
+    <DDTEXT>Customer interface veiw</DDTEXT>
+    <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>
