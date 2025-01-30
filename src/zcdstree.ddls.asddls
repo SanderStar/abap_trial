@@ -8,6 +8,7 @@ association [0..1] to zcdstree as _tree
 {
     key id,
     parent_id as parent,
+    name,
     
     _tree
 }
